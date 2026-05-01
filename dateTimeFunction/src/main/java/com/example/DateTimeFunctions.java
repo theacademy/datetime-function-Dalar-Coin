@@ -58,7 +58,7 @@ public class DateTimeFunctions {
 	public static String getTimeDifference(LocalDate date1, LocalDate date2) {
 		//YOUR CODE STARTS HERE
 		Period diff = date1.until(date2);
-		return "Year-" + diff.getYears() + ":Months-" + diff.getMonths() + ":Days-" + diff.getDays();
+		return "Years-" + diff.getYears() + ":Months-" + diff.getMonths() + ":Days-" + diff.getDays();
 		//YOUR CODE ENDS HERE
 
 	}
